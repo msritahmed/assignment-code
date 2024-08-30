@@ -10,7 +10,7 @@ void main()
     char a[10];
     printf("enter the string\n");
     gets(a); //also use scanf("%s",a);
-             //fgets takes the '\n' takes for count
+             //fgets(a,10,stdin) takes the '\n' takes for count
      
      for(int i=0;a[i]!=0;i++)
      {
