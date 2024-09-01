@@ -20,3 +20,32 @@ void main()
      
     
  }
+
+
+//second method
+
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+void main()
+{
+    char a[10];
+    int len;
+    printf("enter the string\n");
+    scanf("%s",a);
+    
+    len=t(a);
+    printf("length of string is %d",len);
+}
+int  t(char * str)
+{
+    int l=0;
+    while(*str!='\0')
+    {
+        l++;
+        str++;
+    }
+    return l;
+}
+
